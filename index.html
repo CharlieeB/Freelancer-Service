@@ -50,7 +50,7 @@
         </div>
     </section>
 
-    <main class="contenedor sombra">
+<main class="contenedor sombra">
         <h2>Mis Servicios</h2>
 
     <div class="servicios">
@@ -110,35 +110,36 @@
     </section>
     </div><!--Estes es el cierre de la clase de servicios-->  
 
-    </main>
+    
 
     <section>
         <h2>Contacto</h2>
-        <form action="">
+        <form  class="formulario">
             <!--Los campos del formulario se colocaran aqui-->
             <fieldset>
                 <legend>Contactanos llenando todos los campos</legend>
 
-                <div>
-                    <label for="">Nombre</label>
-                    <input type="text" placeholder="Tu Nombre">
-                </div>
-                
-                <div>
-                    <label for="">Telefono</label>
-                    <input type="tel" placeholder="Tu Telefono">
-                </div>
-                
-                <div>
-                    <label for="">Correo</label>
-                    <input type="email" placeholder="Tu Email">
-                </div>
-                
-                <div>
-                    <label for="">Mensaje</label>
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
-                </div>
-                
+                    <div class="contenedor-campos">                
+                        <div class="campo">
+                            <label for="">Nombre</label>
+                            <input type="text" placeholder="Tu Nombre">
+                        </div>
+                        
+                        <div class="campo">
+                            <label for="">Telefono</label>
+                            <input type="tel" placeholder="Tu Telefono">
+                        </div>
+                        
+                        <div class="campo">
+                            <label for="">Correo</label>
+                            <input type="email" placeholder="Tu Email">
+                        </div>
+                        
+                        <div class="campo">
+                            <label for="">Mensaje</label>
+                            <textarea name="" id="" cols="30" rows="10"></textarea>
+                        </div>
+                    </div><!--Final del contenedor-campos-->
                 <!--Tambien podemos usar el input-->
                 <!--<input type="submit" value="Enviar">-->
                 <div>
@@ -149,7 +150,7 @@
             </fieldset>
         </form>
     </section>
-
+</main>
     <footer>
         <p>Todos los derechos reservados </p>
     </footer>
