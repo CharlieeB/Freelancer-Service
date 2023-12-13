@@ -121,29 +121,30 @@
 
                     <div class="contenedor-campos">                
                         <div class="campo">
-                            <label for="">Nombre</label>
-                            <input type="text" placeholder="Tu Nombre">
+                            <label for="">Nombre</label><!--Label es el titulo de cada campo-->
+                            <input class="input-text" type="text" placeholder="Tu Nombre"><!--Imput es el cuadro o recuadro donde colocas datos-->
                         </div>
                         
                         <div class="campo">
                             <label for="">Telefono</label>
-                            <input type="tel" placeholder="Tu Telefono">
+                            <input class="input-text" type="tel" placeholder="Tu Telefono">
                         </div>
                         
                         <div class="campo">
                             <label for="">Correo</label>
-                            <input type="email" placeholder="Tu Email">
+                            <input class="input-text" type="email" placeholder="Tu Email">
                         </div>
                         
                         <div class="campo">
                             <label for="">Mensaje</label>
-                            <textarea name="" id="" cols="30" rows="10"></textarea>
+                            <textarea   class="input-text"></textarea>
                         </div>
                     </div><!--Final del contenedor-campos-->
                 <!--Tambien podemos usar el input-->
                 <!--<input type="submit" value="Enviar">-->
-                <div>
-                    <button type="submit" value="Enviar">Enviar</button>
+                <div class="alinear-derecha flex">
+                    <input class="boton w-sm-100 type="submit value="Enviar"> 
+                    <!--<button type="submit" value="Enviar" class="boton w-sm-100">Enviar</button>--> <!--Uso mi utilidad w-sm-100 al lado de boton-->
                 </div>
                 
 
@@ -151,8 +152,8 @@
         </form>
     </section>
 </main>
-    <footer>
-        <p>Todos los derechos reservados </p>
+    <footer class="footer">
+        <p>Todos los derechos reservados. Carlos Bravo FreeLancer. </p>
     </footer>
     
     
