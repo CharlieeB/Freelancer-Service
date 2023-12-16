@@ -12,6 +12,7 @@
 html{
     font-size: 62.5%;
     box-sizing: border-box;
+    scroll-snap-type: y mandatory;
 }
 
 *, *:before, *:after {
@@ -222,6 +223,12 @@ h1, h2, h3 {
         /*Aumenta el tamaño del margen de las columnas como un justificado de todo*/
         column-gap: 1px;
     }    
+}
+
+/*Scroll Snap*/
+.servicios, .navegacion-principal, .formulario {
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
 }
 
 /*Esta clase personaliza cada uno de los servicios, lo que va a hacer es centrar los circulos*/
